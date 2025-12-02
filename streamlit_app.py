@@ -1186,7 +1186,7 @@ try:
             )
             st.markdown("---")
 
-                    # TERMINATED POLICY DETAIL TABLE (Simplified to use terminated_detail_df correctly)
+        # TERMINATED POLICY DETAIL TABLE (Simplified to use terminated_detail_df correctly)
         st.header("📝 Detailed List of Terminated Policies (Reference Data)")
 
         # 1) Start from terminated_detail_df for this cohort
@@ -1252,6 +1252,7 @@ try:
                 key="terminated_policies_detail",
             )
             st.markdown("---")
+
 
 
             # --- REFERENCE DATA FOR SINGLE COHORT ---
